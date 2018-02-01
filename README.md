@@ -6,4 +6,5 @@
 
 具体样式根据自己的原型图，做了修改
 
-![ex01]()
+![ex01](https://github.com/qiyankai/mooc/blob/master/ex01.png?raw=true)
+![ex02](https://github.com/qiyankai/mooc/blob/master/ex02.png?raw=true)

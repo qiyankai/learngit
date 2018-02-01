@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<title>课程播放</title>
+	<link rel="stylesheet" type="text/css" href="../css/course.css">
+	<link rel="stylesheet" type="text/css" href="../css/course-learn.css">
+	<link rel="stylesheet" type="text/css" href="../css/reset.css">
+	<script type="text/javascript" src="../js/bvd.js"></script>
+	 <link href="http://vjs.zencdn.net/5.8.8/video-js.css" rel="stylesheet">
+	 <script src="http://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+</head>
+<body>
+	<!-- 顶部 -->
+	<div class="c-top">
+		<!-- logo -->
+		<div class="logo">
+			<a href="course-index.html"><img src="../image/logo.jpg"></a>
+		</div>
+		<!-- top导航 -->
+		<div class="topNav-box">
+			<ul>
+				<li><a href="course-index.html" class="f-01">课程</a><div class="current"></div></li>
+				<li><a href="school.html" class="f-01">学校</a><div class=""></div></li>
+				<li><a href="teacher.html" class="f-01">教师</a><div class=""></div></li>
+			</ul>
+		</div>
+		<!-- 搜索框 -->
+		<div class="search-box">
+			<form class="search-wrap">
+				<input class="search-input" type="text" name="search-input" placeholder="搜索教程"></input>
+				<input class="search-submit" type="submit" value=""></input>
+			</form>
+		</div>
+		<!-- 登陆按钮 -->
+		<div class="unlogin-box">
+				<a href="login.html" class="f-01 lognin-btn">登录 &nbsp;&nbsp;</a>|<a href="register.html" class="f-01 resiger-btn">&nbsp;&nbsp; 注册</a>
+		</div>
+	</div>
+	<!-- 主体 -->
+	<div class="c-container">
+		<!-- 课程内容 -->
+		<div class="conta-left-box">
+			<!-- 内容主体 -->
+			<div class="conta-left-middle">
+				<div class="course-name" name="">大学英语&nbsp;&nbsp;(口语)</div>
+				<div class="week course-index">
+					<dl>
+						<dt>Week&nbsp;1 <div class="border-box"></div></dt>
+						<dd>
+							<div class="bad-video">
+								<video  class="video-js" controls preload="auto" poster="../image/video/06.jpg"  data-setup="{}">
+									<source src="../image/video/01.mp4" type="video/mp4">
+								</video>
+							</div>
+						</dd>
+						<div class="clear"></div>
+					</dl>
+				</div>
+			</div>
+			<!-- 加载更多 -->
+			<div class="conta-left-bottom">
+				<span>下一节课程</span>
+			</div>
+		<div class="clear"></div>
+		</div>
+		<!-- 课程信息 -->
+		<div class="conta-right-box">
+			<!-- 课程进度 -->
+			<div class="conta-right-schedule">
+				<div class="right-title">课程进度<div class="border-box"></div></div>
+				<dl class="right-body">
+					<dd class="sc-left"><span>4</span>/13&nbsp;周</dd>
+					<dd class="sc-right">
+						<ul class="f-02">
+							<li class="data-left">开课:&nbsp;&nbsp;<span>2017-6-25</span></li>
+							<li class="data-middle"></li>
+							<li class="data-right">结课:&nbsp;&nbsp;<span>2017-8-25</span></li>
+						</ul>
+					</dd>
+				</dl>
+				<div class="clear"></div>
+				<button class="course-abandon-btn">放弃课程</button>
+			</div>
+			<!-- 详细信息 -->
+			<div class="conta-right-info">
+				<div class="right-title">课程信息<div class="border-box"></div></div>
+				<dl class="right-body">
+					<dd>课程时长&nbsp;&nbsp;&nbsp;&nbsp;<span>14周</span></dd>
+					<dd>课程负载&nbsp;&nbsp;&nbsp;&nbsp;<span>3-5小时每周</span></dd>
+					<dd>内容类型&nbsp;&nbsp;&nbsp;&nbsp;<span>视频&nbsp;文档&nbsp;随堂检测&nbsp;富文本&nbsp;讨论</span></dd>
+					<dd>课程分类&nbsp;&nbsp;&nbsp;&nbsp;<a href="" class="f-01">外语</a></dd>
+				</dl>
+			</div>
+			<!-- 授课教师 -->
+			<div class="conta-right-teacher">
+				<div class="right-title">授课教师<div class="border-box"></div></div>
+				<dl class="right-body">
+					<dd class="teacher-info-box">
+						<div class="teacher-img"><img src="../image/teacher/T-01.png"></div>
+						<ul class="f-02">
+							<li class="t-name">韩梅梅</li>
+							<li class="t-info">国防语言系讲师《小学英语课本》课程负责人</li>
+						</ul>
+						<div class="clear"></div>
+					</dd>
+					<dd class="teacher-info-box">
+						<div class="teacher-img"><img src="../image/teacher/T-01.png"></div>
+						<ul class="f-02">
+							<li class="t-name">李雷</li>
+							<li class="t-info">国防语言系讲师</li>
+						</ul>
+						<div class="clear"></div>
+					</dd>
+					<dd class="teacher-info-box">
+						<div class="teacher-img"><img src="../image/teacher/T-01.png"></div>
+						<ul class="f-02">
+							<li class="t-name">隔壁老王</li>
+							<li class="t-info">国防原谅学讲师《大学原谅课本》课程负责人</li>
+						</ul>
+						<div class="clear"></div>
+					</dd>
+				</dl>
+				<div class="clear"></div>
+			</div>
+
+		</div>
+		<div class="clear"></div>
+	</div>
+	<!-- 底部 -->
+	<div class="c-footer">MOOC</div>
+
+</body>
+</html>
